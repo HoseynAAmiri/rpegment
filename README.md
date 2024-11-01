@@ -30,22 +30,22 @@ app.run(debug=True, port=8001)
 
 ## References
 
-@article{stringer2024cellpose3,
-title={Cellpose3: one-click image restoration for improved cellular segmentation},
-author={Stringer, Carsen and Pachitariu, Marius},
-journal={bioRxiv},
-pages={2024--02},
-year={2024},
-publisher={Cold Spring Harbor Laboratory}
-}
+    @article{stringer2024cellpose3,
+    title={Cellpose3: one-click image restoration for improved cellular segmentation},
+    author={Stringer, Carsen and Pachitariu, Marius},
+    journal={bioRxiv},
+    pages={2024--02},
+    year={2024},
+    publisher={Cold Spring Harbor Laboratory}
+    }
 
-@article{ortolan2022single,
-title={Single-cell--resolution map of human retinal pigment epithelium helps discover subpopulations with differential disease sensitivity},
-author={Ortolan, Davide and Sharma, Ruchi and Volkov, Andrei and Maminishkis, Arvydas and Hotaling, Nathan A and Huryn, Laryssa A and Cukras, Catherine and Di Marco, Stefano and Bisti, Silvia and Bharti, Kapil},
-journal={Proceedings of the National Academy of Sciences},
-volume={119},
-number={19},
-pages={e2117553119},
-year={2022},
-publisher={National Acad Sciences}
-}
+    @article{ortolan2022single,
+    title={Single-cell--resolution map of human retinal pigment epithelium helps discover subpopulations with differential disease sensitivity},
+    author={Ortolan, Davide and Sharma, Ruchi and Volkov, Andrei and Maminishkis, Arvydas and Hotaling, Nathan A and Huryn, Laryssa A and Cukras, Catherine and Di Marco, Stefano and Bisti, Silvia and Bharti, Kapil},
+    journal={Proceedings of the National Academy of Sciences},
+    volume={119},
+    number={19},
+    pages={e2117553119},
+    year={2022},
+    publisher={National Acad Sciences}
+    }
