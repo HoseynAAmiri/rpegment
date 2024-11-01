@@ -216,7 +216,9 @@ def get_neighbors(
 def prop2cell(prop, neighbor_map: npt.NDArray[np.int_]) -> Cell:
     cell = Cell()
     cell.Label = prop.label
-    cell.Y, cell.X = prop.centroid
+    x = prop.centroid[1]
+    y = neighbor_map.shape[0] - prop.centroid[0]
+    cell.Y, cell.X = y, x
     cell.Area = prop.area
     cell.Peri = prop.perimeter
 
