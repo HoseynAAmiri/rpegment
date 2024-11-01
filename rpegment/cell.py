@@ -2,13 +2,13 @@ import numpy as np
 
 from dataclasses import dataclass, field
 
-nan = field(default_factory=lambda: np.nan)
-
 
 @dataclass
 class Cell:
     # Input parameters
     Label: int = 0
+    X: int = 0
+    Y: int = 0
     Area: float = 0.0
     Peri: float = 0.0
     Feret: float = 0.0
@@ -20,19 +20,19 @@ class Cell:
     Neighbors: int = 0
 
     # Output parameters
-    AoP: float = nan
-    FeretAR: float = nan
-    Compactness: float = nan
-    Extent: float = nan
-    A_hull: float = nan
-    P_hull: float = nan
-    PoN: float = nan
-    Poly_SR: float = nan
-    Poly_AR: float = nan
-    Poly_Ave: float = nan
-    Hex_SR: float = nan
-    Hex_AR: float = nan
-    Hex_Ave: float = nan
+    AoP: float = np.nan
+    FeretAR: float = np.nan
+    Compactness: float = np.nan
+    Extent: float = np.nan
+    A_hull: float = np.nan
+    P_hull: float = np.nan
+    PoN: float = np.nan
+    Poly_SR: float = np.nan
+    Poly_AR: float = np.nan
+    Poly_Ave: float = np.nan
+    Hex_SR: float = np.nan
+    Hex_AR: float = np.nan
+    Hex_Ave: float = np.nan
 
     def get_output(self) -> None:
         def safe_divide(a, b):
